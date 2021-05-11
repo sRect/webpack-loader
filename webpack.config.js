@@ -38,9 +38,9 @@ module.exports = (env) => ({
       {
         test: /\.js$/,
         use: [
-          // {
-          //   loader: "babel-loader",
-          // },
+          {
+            loader: "babel-loader",
+          },
           {
             loader: "async-catch-loader",
             options: {
